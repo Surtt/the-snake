@@ -46,7 +46,7 @@ class GameObject:
     а также заготовку метода отрисовки, которую переопределяют дочерние классы.
     """
 
-    def __init__(self, body_color: tuple[int, int, int]):
+    def __init__(self, body_color: tuple[int, int, int] = (0, 0, 0)):
         """
         Инициализирует базовые атрибуты объекта:
         позицию в центре экрана и цвет.
